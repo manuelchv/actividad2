@@ -10,11 +10,21 @@
     {
         background-color: white;
     }
+a
+    {
+        text-decoration: none;
+        color: black;
+    }
 .titulo
     {
+        display: flex;
+        border: 2px solid black;
+        margin: 20px;
         background-color: white;
-        text-align: center;
-        text-shadow: 2px 3px 3px gray;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        text-shadow: 1px 1px 4px gray;
         font-size: 45px;
     }
 .navegador
@@ -23,24 +33,37 @@
         justify-content: center;
         align-items: center;
         background-color: white;
+        box-shadow: 0 4px 8px 0 rgb(48, 47, 47), 0 6px 10px 0 black;
     }
 .navegador2
     {
         display: flex;
-        gap: 100px;
+        gap: 150px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 20px;
     }
 .subtitulo
     {
-        text-align: center;
+        display: flex;
         background-color: white;
+        width: 200px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
         text-shadow: 1px 2px 2px gray;
+        margin: 15px 565px;
+        border-radius: 100px;
     }
 .informacion
-    {
+    {   
+        display: block;
         background-color: silver;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width: auto;
+        border: 2px solid black;
+        padding: 2px 15px;
+        margin: 15px;
+        box-shadow: 0 1px 6px 0 rgb(48, 47, 47), 0 6px 20px 0 black;
     }
 .pie
     {
@@ -69,4 +92,14 @@
         margin-left: 15px;
         float: right;
     }
-    
+.fimage 
+    {
+        display: block;
+        margin-left: 100px;
+        box-shadow: 0 1px 6px 0 rgb(48, 47, 47), 0 6px 20px 0 black;
+        width: 200px;
+    }
+li 
+    {
+        display: inline;
+    }
