@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body class="fondo">
+    <script src="app.js"></script>
     <header>
         <audio hidden autoplay loop>
             <source src="nata2.mp3" type="audio/mpeg">
@@ -14,11 +15,11 @@
         <h1 class="titulo">Natanael Cano</h1>
         <nav class="navegador">
             <ul class="navegador2">
-                <li><a class="efecto" href="index.html">HISTORIA</a></li>
-                <li><a class="efecto" href="albumes.html">ALBUMES</a></li>
-                <li><a class="efecto" href="canciones.html">CANCIONES MAS ESCUCHADAS</a></li>
-                <li><a class="efecto" href="viral.html">LO MAS VIRAL</a></li>
-                <li><a class="efecto" href="redes.html">REDES</a></li>
+                <li><a onmouseover="efectos(1)" onmouseout="sinefectos()" class="efectos" href="index.html">HISTORIA</a></li>
+                <li><a onmouseover="efectos(2)" onmouseout="sinefectos()" class="efectos" href="albumes.html">ALBUMES</a></li>
+                <li><a onmouseover="efectos(3)" onmouseout="sinefectos()" class="efectos" href="canciones.html">CANCIONES MAS ESCUCHADAS</a></li>
+                <li><a onmouseover="efectos(4)" onmouseout="sinefectos()" class="efectos" href="viral.html">LO MAS VIRAL</a></li>
+                <li><a onmouseover="efectos(5)" onmouseout="sinefectos()" class="efectos" href="redes.html">REDES</a></li>
             </ul>
         </nav>
     </header>
